@@ -4,7 +4,7 @@ Aim: To learn to write a compiler for a simple language.
 
 Desciption:
 
-    CUCU is a toy language, and it is similar to C (a subset of C  langauge). This compiler basdically compiles the .cu files and 
+    CUCU is a toy language, and it is similar to C (a subset of C  language). This compiler basically compiles the .cu files and 
     displays the lexical and parsing errors (if there), or successfully compiles the program. 
 
 
