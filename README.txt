@@ -6,6 +6,11 @@ Entry Number: 2020CSB1064
  
 Aim: To learn to write a compiler for a simple language.
 
+Desciption:
+CUCU is a toy language, and it is similar to C (a subset of C  langauge). This compiler basdically compiles the .cu files and 
+displays the lexical and parsing errors (if there), or successfully compiles the program. 
+
+
 Running the files:
 
 1.) To compile Sample1.cu (which contains correct CUCU code), type the following line in terminal:-
@@ -33,20 +38,6 @@ Files:
 * makefile:-
     It contains commands to compile and run the lex and yacc files.
 
-Assumptions:
-
-1.) Multiple variable can be defined under a single datatype at a time.
-2.) Texts can be enclosed within single or double quotes.
-3.) Logical and Bitwise Operators are assumed to be not defined in the CUCU language.
-4.) Multiple function arguments can be passed.
-5.) If-elseif is not defined.
-6.) Comments are considered and are ignored by lexer.
-7.) Expressions can be boolean true /false.
-8.) Declarations can be done before defining a function.
-9.) Only relational operators are: == (equals) and != (not equals).
-10.)The rules not included in the desciption of the language are assumed to not be defined in CUCU.
-11.) Arrays can be defined only in the form of ID[NUM].
-12.) Only +, -, *, / are the arithmetic operators defined. 
 
 Output files:
 
